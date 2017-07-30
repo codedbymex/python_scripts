@@ -1,4 +1,4 @@
-# python_scripts
+# Python_Scripts
 Some useful python scripts mainly designed for Linux based operating systems
 
 # Python useful scripts:
