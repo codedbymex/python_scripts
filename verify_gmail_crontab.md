@@ -2,7 +2,7 @@
 
 On Linux: 
    - 1. in any terminal window type: `crontab -e` 
-   - 2. enter the following snippet in the file:
+   - 2. copy the following snippet into the file:
    - 3. Ctrl-X and Enter to save:
 ```
 #!/bin/bash
