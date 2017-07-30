@@ -1,4 +1,4 @@
-# :bomb: :bomb: :bomb: Python_Scripts :bomb: :bomb: :bomb:
+# 				:bomb: :bomb: :bomb: Python_Scripts :bomb: :bomb: :bomb:
 Some useful python scripts mainly designed for Linux based operating systems.
 ~ botanorbert1@gmail.com
 
