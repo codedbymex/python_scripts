@@ -38,5 +38,4 @@ if len(uids) > 0:
 		.format(frommes[0]).replace("<", "").replace(">", "")\
 		+' --text="Subject: {}"'.format("".join(x.split()[0] for x in subject))
 	subprocess.call(cmd, shell=True)
-
 else:pass
