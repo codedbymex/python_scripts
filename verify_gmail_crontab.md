@@ -1,7 +1,8 @@
-### Running every minute the verify gmail script from crontab and showing dialog box with zenity.
-# On -Linux: 
-  # type: crontab -e 
-  # enter the following in the file
+# Running every minute the verify gmail script from crontab and showing dialog box with zenity. 
+
+On -Linux: 
+   - type: `crontab -e` 
+   - enter the following in the file
 ```
 #!/bin/bash
 #*     *     *   *    *
