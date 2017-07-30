@@ -3,7 +3,7 @@
 On Linux: 
    - 1. in any terminal window type: `crontab -e` 
    - 2. copy the following snippet into the file:
-   - 3. Ctrl-X and Enter to save:
+
 ```
 #!/bin/bash
 #*     *     *   *    *
@@ -19,3 +19,4 @@ On Linux:
 # or you can run it every five minutes: changing ---> /5 * * * * 
 * * * * * DISPLAY=:0 python /home/user/complete-path-to-script/verify_gmail.py 
 ```
+   - 3. ctrl-x and Enter to save.
