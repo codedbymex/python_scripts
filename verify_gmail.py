@@ -40,7 +40,3 @@ if len(uids) > 0:
 	subprocess.call(cmd, shell=True)
 
 else:pass
-
-
-	
-
