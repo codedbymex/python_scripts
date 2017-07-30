@@ -17,6 +17,6 @@ On Linux:
 
 
 # or you can run it every five minutes: changing ---> /5 * * * * 
-* * * * * DISPLAY=:0 python /home/user/complete-path-to-script/verify_gmail.py 
+* * * * * DISPLAY=:0 python /home/user-name-here/complete-path-to-script/verify_gmail.py 
 ```
    - 3. ctrl-x and Enter to save.
