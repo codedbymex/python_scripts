@@ -35,7 +35,7 @@ if len(uids) > 0:
 		mail_subject.append(email_subject)
 
 	cmd = 'zenity --info --width=500 --title="You have a massage from: {}"'\
-		.format(frommes[0]).replace("<", "").replace(">", "")\
-		+' --text="Subject: {}"'.format("".join(x.split()[0] for x in subject))
+		.format(mail_sender[0]).replace("<", "").replace(">", "")\
+		+' --text="Subject: {}"'.format("".join(x.split()[0] for x in mail_subject))
 	subprocess.call(cmd, shell=True)
 else:pass
