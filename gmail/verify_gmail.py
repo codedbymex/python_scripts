@@ -10,7 +10,7 @@ mail.login(username, password)
 
 # retrieve a list of the mailboxes and select one
 result, mailboxes = mail.list()
-mail.select("Test")
+mail.select("INBOX")
 
 result, numbers = mail.uid('search', None, 'UNSEEN')
 uids = numbers[0].split()
